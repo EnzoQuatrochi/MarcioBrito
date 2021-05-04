@@ -153,7 +153,7 @@ main .coluna section ul li{
     margin: 0 0 12px;
 }
 main .coluna section ul li h3{
-    font-size: 1.1rem;
+    font-size: 1.28rem;
 }
 main .coluna section ul li strong{
     font-size: 0.9rem;
@@ -280,7 +280,7 @@ label span{
     main .coluna section{
         /* border: 2px solid #d4e9ff; */
         border: 2px solid transparent;
-        padding: 20px;
+        padding: 18px;
         position: relative;
     }
     main .coluna section span{
