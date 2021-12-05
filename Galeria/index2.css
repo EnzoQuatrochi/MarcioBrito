@@ -1,0 +1,46 @@
+html, body, figure, img, h1, h2, h3, p, ul, li, a{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html{
+    background-color: #1c1c1c;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+header{
+    color: #fff;
+    text-align: center;
+    padding: 26px 0;
+}
+
+.conteiner{
+    display: grid;
+    max-width: 500px;
+  
+   
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   
+    margin-left: 35px;
+    margin-bottom: 35px;
+
+}
+
+.conteiner img{
+   border: 5px solid white;
+   margin: 15px;
+}
+
+@media only screen and (min-width: 1519px){
+
+    main img{
+        height: 350px;
+        width: 332px;
+    }
+}
